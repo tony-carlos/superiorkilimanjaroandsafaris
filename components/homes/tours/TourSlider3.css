@@ -1,0 +1,36 @@
+.tourSlider3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.tourSlider3 .swiper-slide {
+  height: auto;
+  display: flex;
+}
+
+.tourSlider3 .tourCard {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.tourSlider3 .tourCard__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.tourSlider3 .tourCard__image {
+  position: relative;
+  padding-top: 71.43%; /* 20:28 aspect ratio */
+}
+
+.tourSlider3 .tourCard__image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

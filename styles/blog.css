@@ -1,0 +1,19 @@
+.blog-content h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 1.5rem 0 1rem;
+}
+
+.blog-content p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+.blog-content a {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.blog-content a:hover {
+  color: #0056b3;
+}
